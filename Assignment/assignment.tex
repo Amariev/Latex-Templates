@@ -1,0 +1,37 @@
+\documentclass[12pt]{Amariev}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Assignment Information
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\university{Nombre de la universidad}
+\title{titulo}
+\author{Name}
+\course{nombre del curso}
+\courseid{id}
+\professor{nombre del profesor}
+\date{due date}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+    \maketitle
+
+    \begin{problem}{1}{Titulo del programa}
+      \lipsum[1]
+    \end{problem}
+    \\
+    \noindent Solución: \\
+    \begin{enumerate}
+    \renewcommand{\theenumi}{\roman{enumi}}
+    \item \lipsum[3]
+      \begin{itemize}
+        \item primero
+        \item segundo
+      \end{itemize}
+    \end{enumerate}
+
+    \begin{problem}{2}{insertar links}
+      Link \href{google.com}{texto}.
+    \end{problem}
+\end{document}
